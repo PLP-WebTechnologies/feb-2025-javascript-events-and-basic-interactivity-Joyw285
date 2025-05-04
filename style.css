@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f9f9f9;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #hoverBox {
+    width: 200px;
+    height: 100px;
+    background-color: #ddd;
+    line-height: 100px;
+    text-align: center;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .accordion-content {
+    display: none;
+    background-color: #eee;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .feedback {
+    font-size: 0.9em;
+    color: red;
+    margin-left: 10px;
+  }
+  
